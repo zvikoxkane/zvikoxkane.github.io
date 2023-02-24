@@ -28,11 +28,11 @@ align-items: center;
 margin-top: 20px;
 margin-bottom: 20px;
 padding: 10px;
-color: rgb(29, 31, 32);
+color: rgb(255, 255, 255);
 }
 
 .Company-metadata-sidebar-wrapper {
-    background-color: rgb(221, 221, 221);
+    background-color: rgb(131, 131, 131);
     background-size: 40%;
     background-origin: content-box;
     border-radius: 30px;

@@ -1,0 +1,97 @@
+/* hero section styles */
+
+.hero-section{
+    background-image: url(../image/Background-\ PC.jpg);
+    padding: 100px;
+    height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   
+}
+
+.hero-section > .top-heading{
+    padding: 1px 20px;
+
+    background-color: rgba(146, 6, 6, 0.774);
+    color: white;
+    width:fit-content;
+    border-radius: 5px;
+
+}
+
+.hero-section > .bottom-heading {
+    background-color: darkgoldenrod;
+    color: aliceblue;
+    width: fit-content;
+    padding: 1px 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+
+}
+
+/* features section styles */
+.features-section{
+    height: 400px;
+    background-image: url(../image/Cat\ Yellow\ Geometric\ Black\ Background.jpeg);
+    background-size: cover;
+    background-color: goldenrod;
+    padding: 50px;
+    border-top: 13px groove whitesmoke;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    background-repeat:repeat;
+
+    box-shadow:  inset 0px -12px 33px -8px rgb(0, 0, 0);
+}
+
+.features-section > .columns-wrapper { 
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.features-section > .columns-wrapper > .column {
+    padding: 20px;
+    margin: 42px;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.features-section > .columns-wrapper > .column:hover {
+    border-bottom: 5px solid gold;
+    border-top: 5px gold
+
+}
+
+.features-section > .columns-wrapper > .column :nth-child(1) {
+    font-size: 3em;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(2) {
+    font-size: 1.5em;
+    font-weight: bold;
+    height: 50px;
+    transition: 1s;
+
+}
+
+.features-section > .columns-wrapper > .column :nth-child(2):hover {
+    letter-spacing: 1px;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(3) {
+   letter-spacing: 2px;
+}
+
+
+

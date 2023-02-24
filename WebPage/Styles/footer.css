@@ -1,0 +1,179 @@
+
+
+                                                      /* FOOTER SECTION  */        
+
+
+
+.footer-wrapper {
+    background-image: url(../image/Cat\ Yellow\ Geometric\ Black\ Background.jpeg);
+    background-repeat:repeat;
+    background-size:cover;
+    background-color: darkgoldenrod;
+    border-top: 20px groove white;
+    color: whitesmoke;
+    display: flex;  /* use flex direction column to make flex box content align column ; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    margin-top: -4px;
+    padding-top: 30px;
+    margin-top: 10px;
+    
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive; */
+    /* height: 120px; */
+    
+    
+
+}
+
+
+/* .footer-wrapper > .footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: opacity(50%);
+} */
+
+
+.footer-wrapper > .footer-logo img{
+    width: 200px;
+    height: 200px;
+    
+    /* align-items: center;
+    display:flex;
+    justify-content: center; */
+
+}
+
+
+
+
+.footer-wrapper > .phone-hours {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-family: fantasy;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+
+
+    /* display: flex;
+    font-family: fantasy;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 500px;
+    font-size: 1.5em;
+    border-bottom: 3px solid white;
+    border-radius: 3px; */
+}
+
+.footer-wrapper > .phone-hours:hover{
+    border-bottom: 3px solid gold;
+    border-radius: 20px;
+}
+
+
+.footer-wrapper > .phone-hours > .footer-hours {
+    transition: 0.5s;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 5px;
+    
+}
+
+.footer-wrapper > .phone-hours > .footer-hours:hover { 
+    color: gold;
+    letter-spacing: 1px;
+    
+}
+
+.footer-wrapper > .phone-hours > .footer-phone{
+    transition: 0.5s;
+    text-decoration: none;
+    padding-right: 10px;
+    
+    
+}
+.footer-wrapper > .phone-hours > .footer-phone:hover{
+    color: gold;
+    letter-spacing: 1px;
+    
+    
+}
+
+.footer-wrapper >.nav-links-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 400px;
+
+    display: flex;
+    font-size: 1.1em;
+    align-items: center;
+    justify-content:space-between;
+    margin: 0px 400px;
+
+
+}
+
+.footer-wrapper >.nav-links-wrapper > .nav-link a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+    font-family: fantasy;
+    font-weight:100;
+    letter-spacing: 1px;
+}
+
+.footer-wrapper >.nav-links-wrapper > .nav-link a:hover{
+    color: gold;
+    letter-spacing: 1.5px;
+}
+
+.footer-wrapper > .footer-socials {
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 500px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-wrapper > .footer-socials > .insta-logo i{
+    transition: 0.5s;
+}
+
+.footer-wrapper > .footer-socials > .insta-logo i:hover{
+    color: rgb(233, 6, 44);
+}
+.footer-wrapper > .footer-socials > .twitter-logo i{
+    transition: 0.5s;
+}
+.footer-wrapper > .footer-socials > .twitter-logo i:hover{
+    color: rgb(0, 110, 236);
+}
+
+.footer-wrapper > .footer-socials > .facebook-logo i{
+    transition: 0.5s;
+}
+
+.footer-wrapper > .footer-socials > .facebook-logo i:hover{
+    color: rgb(38, 59, 248);
+}
+
+.footer-wrapper > .copyright {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}

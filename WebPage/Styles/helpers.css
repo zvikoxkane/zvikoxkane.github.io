@@ -1,0 +1,20 @@
+.spacer60 {
+    height: 60px;
+    width: 100%;
+
+}
+
+.anchor {
+    text-decoration: none;
+}
+
+.anchor:focus{
+    outline: none;
+}
+
+/* important note , rememeber how to import an icon directly into css */
+.anchor h1::after {
+    font-family: "Font Awesome 6 Free";
+    content: " \f5bc";
+    font-weight: 900;
+}

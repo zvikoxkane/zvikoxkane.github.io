@@ -1,0 +1,90 @@
+body{
+    background-image: url(Background2.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    border-color: black;
+    border: 5px solid;
+    padding-bottom: 300px;
+    font-size: 1.8rem;
+    
+}
+
+.logo{
+    display: flex;
+    justify-items: center;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#title{
+    font-family: monospace; 
+    font-weight: 700;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: underline;
+}
+
+
+#description{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+.form-inputs{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.7rem;
+    
+
+}
+
+#email-label, #name-label{
+    margin-right: 18px;
+}
+
+#number-label{
+    margin-right: 16px;
+}
+
+#likes {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px ;
+    margin-bottom: 8px ;
+
+}
+.checkbox-heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px ;
+    margin-bottom: 8px ;
+
+}
+
+h3{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#submit{
+    height: 3rem;
+
+}
+
+.form-control{
+    height: 1.8rem;
+    width: 50%;
+    background-color: ;
+}
